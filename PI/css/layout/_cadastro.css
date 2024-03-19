@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+}
+
+.home {
+    position: relative;
+    left: 9%;
+    top: .8rem;
+    scale: 1.4;
+}
+
+.relogio {
+    position: relative;
+    left: 9%;
+    top: .9rem;
+    scale: 1.6;
+}
+
+.perfil {
+    position: relative;
+    left: 94%;
+    scale: 1.4;
+    top: -4.6rem;
+}
+
+.icon-search {
+    position: relative;
+    left: 61.7%;
+    scale: 1.5;
+    top: -4.5rem;
+}
+
+.circulo {
+    position: relative;
+    width: 1.5rem;
+    background-color: black;
+    left: 61.2%;
+    height: 1.20rem;
+    top: -1.62rem;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 1.5px rgb(138, 43, 226);
+}
+
+.quadrado {
+    position: relative;
+    width: 1.5rem;
+    background-color: black;
+    left: 61.8%;
+    height: 1.78rem;
+    top: -3.3rem;
+}
+
+.pesquisa {
+    position: relative;
+    width: 23%;
+    left: 39%;
+    top: -.3rem;
+    border-radius: 50px 0px 0px 50px;
+    border: solid 2px rgb(138, 43, 226);
+    padding-top: .4%;
+    padding-left: 1%;
+}
+
+.txt-cadastro {
+    text-align: center;
+    margin-top: -4.8%;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    position: relative;
+    margin-top: 3.7%;
+    right: 8%;
+}
+
+.componentes {
+    background-color: black;
+    width: 200%;
+    height: 2rem;
+    border-radius: 50px;
+    border: solid 3.5px rgb(138, 43, 226);
+    color: #ffffff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.inputs-btn {
+    position: relative;
+    margin-top: 2.5%;
+    right: 3.5%;
+    width: 5rem;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #999;
+    text-decoration: underline;
+}
+
+.labels {
+    text-align: center;
+    margin-bottom: 62.8%;
+}
+
+.container-txt {
+    left: 45%;
+    bottom: 13%;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+}
+
+.H {
+    position: absolute;
+    color: #000000;
+    font-weight: bold;
+    left: 10.72%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
